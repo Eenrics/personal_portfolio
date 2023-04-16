@@ -1,4 +1,4 @@
-This is a [Portfolio Project](https://personal-portfolio-psi-eight.vercel.app/) using nextjs tailwindcss typescript framer-motion. I hope this gonna be fun!
+This is a [Portfolio Project](https://abenezer.vercel.app/) using nextjs tailwindcss typescript framer-motion. I hope this gonna be fun!
 
 ## Getting Started
 
