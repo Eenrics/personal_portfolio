@@ -6,7 +6,7 @@ const NavigationBar = () => {
         <nav 
           className='flex fixed justify-between h-10 w-11/12 border-b-2 border-white m-5 pb-1'
           >
-             <div className=''>
+             <div className='cursor-pointer'>
               <svg  className='h-9'
                     id="ePBXlpJ48591"
                     xmlns="http://www.w3.org/2000/svg"
