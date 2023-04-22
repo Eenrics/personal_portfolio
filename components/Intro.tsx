@@ -10,13 +10,13 @@ const Intro = () => {
     const [telecopy, setTelecopy] = useState(false)
     const [phonecopy, setPhonecopy] = useState(false)
     return ( 
-        <div className="flex flex-row">
-          <div className='text-white w-screen flex flex-col justify-center '>
-            <p className='ml-auto mr-auto text-2xl'>Hi, I am {" "}<br/>
-              <span className='text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500'>Abenezer Eshetie</span>,
+        <div className="flex flex-row w-screen h-screen pt-9">
+          <div className='text-white w-screen flex flex-col justify-center'>
+            <p className='ml-auto mr-auto text-2xl mb-10'>Hi, I am {" "}<br/>
+              <span className='text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 my-3 inline-block'>Abenezer Eshetie</span>,
               <br/> a web developer who speaks the language of the internet and turns ideas into reality.</p>
             <br/>
-            <p className='w-8/12 mr-auto ml-auto bg-white text-black p-5 px-9 rounded text-lg'>I am a versatile web and mobile application developer with expertise in front-end, back-end, and DevOps..
+            <p className='w-8/12 mr-auto ml-auto bg-white text-black p-5 px-9 rounded text-lg mb-9'>I am a versatile web and mobile application developer with expertise in front-end, back-end, and DevOps..
              I create beautiful, eye-catching applications that are highly scalable and available using cloud and automation tools..
             </p>
             <br/>

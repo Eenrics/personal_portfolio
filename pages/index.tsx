@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Intro from '@/components/Intro'
 import NavigationBar from '@/components/NavigationBar'
+import Abount from '@/components/About'
 
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
 
         <NavigationBar />
         
-        <main className="flex min-h-screen bg-black">
+        <main className="min-h-screen bg-black overflow-x-hidden">
           <Intro />
+          <Abount />
         </main>
     </>
   )

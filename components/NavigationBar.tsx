@@ -7,7 +7,7 @@ const NavigationBar = () => {
           className='flex fixed justify-between h-10 w-11/12 border-b-2 border-white m-5 pb-1'
           >
              <div className='cursor-pointer'>
-              <svg  className='h-9'
+              <svg  className='h-10'
                     id="ePBXlpJ48591"
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -27,9 +27,9 @@ const NavigationBar = () => {
               className='pl-5 flex flex-row '>
                 <li 
                   className={navBottonStyle}
-                  >
+                  ><a href="#about">
                     <span className={slashStyle}>/</span>About Me
-                </li>
+                    </a></li>
                 <li 
                   className={navBottonStyle}
                   >
