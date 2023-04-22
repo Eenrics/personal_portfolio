@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Abenezer</title>
+        <title>Abenezer E.</title>
       </Head>
       <main className="flex min-h-screen bg-black">
         <motion.nav 
