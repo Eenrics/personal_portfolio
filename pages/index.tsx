@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Abenezer E.</title>
+        <title>Abenezer Eshetie</title>
       </Head>
 
         <NavigationBar />
