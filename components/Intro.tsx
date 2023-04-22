@@ -5,7 +5,7 @@ const Intro = () => {
               <span className='text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500'>Abenezer Eshetie</span>,
               <br/> a web developer who speaks the language of the internet and turns ideas into reality.</p>
             <br/>
-            <p className='w-8/12 mr-auto ml-auto bg-white text-black p-5 rounded text-l'>I am a versatile web and mobile application developer with expertise in front-end, back-end, and DevOps..
+            <p className='w-8/12 mr-auto ml-auto bg-white text-black p-5 px-9 rounded text-lg'>I am a versatile web and mobile application developer with expertise in front-end, back-end, and DevOps..
              I create beautiful, eye-catching applications that are highly scalable and available using cloud and automation tools..
             </p>
             <br/>

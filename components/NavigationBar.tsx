@@ -1,4 +1,6 @@
-import { navBottonStyle, slashStyle } from "@/utils";
+export const navBottonStyle = 'text-white border-2 border-black hover:border-cyan-600 mx-5 p-1 px-2 rounded-full cursor-pointer'
+export const slashStyle = 'text-cyan-600 font-[900]'
+
 const NavigationBar = () => {
     return ( 
         <nav 
