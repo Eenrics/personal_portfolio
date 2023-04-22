@@ -33,14 +33,14 @@ const Intro = () => {
                 setTimeout(() => {
                     setTelecopy(false)
                 }, 5000)
-                }}>{ !telecopy ? <TelegramIcon className='hover:text-green-500'/> : <span className='text-sm text-cyan-500'>Copied</span> }</div>
+                }}>{ !telecopy ? <TelegramIcon className='hover:text-green-500'/> : <span className='text-sm text-green-500'>Copied</span> }</div>
             <div className={iconStyle} onClick={() => {
                 navigator.clipboard.writeText("+251911370109")
                 setPhonecopy(true)
                 setTimeout(() => {
                     setPhonecopy(false)
                 }, 5000)
-                }}>{ !phonecopy ? <PhoneAndroidIcon className='hover:text-violet-500'/> : <span className='text-sm text-cyan-500'>Copied</span> }</div>
+                }}>{ !phonecopy ? <PhoneAndroidIcon className='hover:text-violet-500'/> : <span className='text-sm text-violet-500'>Copied</span> }</div>
           </div>
         </div>
      );
