@@ -6,9 +6,16 @@ const About = () => {
         <div className="flex flex-col w-screen py-36 pl-12" id='about'>
           
           <div className='flex flex-row gap-9 justify-center items-center'>
-            <div className='border-2 border-black bg-black hover:bg-cyan-900 hover:border-white rounded-full overflow-hidden '>
+            <div className='border-2 group border-black bg-black hover:bg-cyan-900 hover:border-white transition-all delay-150 hover:backdrop-blur-sm rounded-full overflow-hidden '>
+                {/* <img
+                src="/my_picture_real.png"
+                className='group-hover:hidden'
+                alt="abenezer picture"
+                style={{height: 285, width: 500}}
+                /> */}
                 <img
-                src="/my_picture.png"
+                src="/my_picture_cartoon.png"
+                // className='hidden group-hover:block'
                 alt="abenezer picture"
                 style={{height: 285, width: 500}}
                 />
@@ -26,48 +33,6 @@ const About = () => {
           </div>
 
 
-            <div className=' bg-white grid grid-cols-12 gap-8 rounded-lg m-4 mt-16 ml-24 w-10/12 p-3 filter grayscale hover:grayscale-0 hover:scale-105 ease-out transition'>
-              <img src="/assets/logo/react.png" alt="heart icon" className='hover:animate-spin'/>
-              <img src="/assets/logo/three.png" alt="heart icon" />
-              <img src="/assets/logo/tailwind.png" alt="heart icon" />
-              <img src="/assets/logo/sass.png" alt="heart icon" />
-              <img src="/assets/logo/redux.png" alt="heart icon" />
-              <img src="/assets/logo/ansible.png" alt="heart icon" />
-              <img src="/assets/logo/aws.png" alt="heart icon" />
-              <img src="/assets/logo/bootstrap.png" alt="heart icon" />
-              <img src="/assets/logo/c.png" alt="heart icon" />
-              <img src="/assets/logo/python.png" alt="heart icon" />
-              <img src="/assets/logo/circleci.png" alt="heart icon" />
-              <img src="/assets/logo/css.png" alt="heart icon" />
-              <img src="/assets/logo/cypress.png" alt="heart icon" />
-              <img src="/assets/logo/docker.png" alt="heart icon" />
-              <img src="/assets/logo/express.png" alt="heart icon" />
-              <img src="/assets/logo/flask.png" alt="heart icon" />
-              <img src="/assets/logo/framer_motion.png" alt="heart icon" />
-              <img src="/assets/logo/graphana.png" alt="heart icon" />
-              <img src="/assets/logo/graphql.png" alt="heart icon" />
-              <img src="/assets/logo/grcp.png" alt="heart icon" />
-              <img src="/assets/logo/haproxy.png" alt="heart icon" />
-              <img src="/assets/logo/html.png" alt="heart icon" />
-              <img src="/assets/logo/javascript.png" alt="heart icon" />
-              <img src="/assets/logo/jenkins.png" alt="heart icon" />
-              <img src="/assets/logo/jest.png" alt="heart icon" />
-              <img src="/assets/logo/kubernetes.png" alt="heart icon" />
-              <img src="/assets/logo/mongodb.png" alt="heart icon" />
-              <img src="/assets/logo/mysql.png" alt="heart icon" />
-              <img src="/assets/logo/neo4j.png" alt="heart icon" />
-              <img src="/assets/logo/next.png" alt="heart icon" />
-              <img src="/assets/logo/nginx.png" alt="heart icon" />
-              <img src="/assets/logo/node.png" alt="heart icon" />
-              <img src="/assets/logo/postgresql.png" alt="heart icon" />
-              <img src="/assets/logo/prometheus.png" alt="heart icon" />
-              <img src="/assets/logo/react_native.png" alt="heart icon" />
-              <img src="/assets/logo/redis.png" alt="heart icon" />
-              <img src="/assets/logo/socketio.png" alt="heart icon" />
-              <img src="/assets/logo/terraform.png" alt="heart icon" />
-              <img src="/assets/logo/typescript.png" alt="heart icon" />
-              <img src="/assets/logo/webrtc.png" alt="heart icon" />
-            </div>
         </div>
      );
 }

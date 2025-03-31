@@ -4,7 +4,7 @@ export const slashStyle = 'text-cyan-600 font-[900]'
 const NavigationBar = () => {
     return ( 
         <nav 
-          className='flex fixed justify-between h-10 w-11/12 border-b-2 border-white m-5 pb-1'
+          className='flex fixed justify-between h-10 w-11/12 border-b-2 border-white m-5 pb-1  chewy-regular'
           >
              <div className='cursor-pointer'>
               <svg  className='h-10'
